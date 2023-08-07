@@ -7,8 +7,8 @@
 
 namespace my_NeuralNetwork {
 
-struct Perceptoron {
- private:
+struct Perceptron {
+private:
   // 入力の個数
   int input_num;
   // 入力
@@ -24,10 +24,10 @@ struct Perceptoron {
   // 活性化関数
   std::function<double(double)> act;
 
- private:
-  explicit Perceptoron(int _input_num, std::string act_name);
+public:
+  Perceptron(int _input_num, std::string act_name);
 
   double forward_propagation(std::vector<double> &_input);
 };
 
-}  // namespace my_NeuralNetwork
+} // namespace my_NeuralNetwork

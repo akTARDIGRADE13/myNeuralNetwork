@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork/build"
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork"
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork/build"
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork/build"
 		},
 		{
 			"name" : "NeuralNetwork_SOURCE_DIR",
@@ -1027,7 +1027,31 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork"
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork"
+		},
+		{
+			"name" : "test_cmake_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork/build"
+		},
+		{
+			"name" : "test_cmake_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork"
 		}
 	],
 	"kind" : "cache",
