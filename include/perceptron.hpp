@@ -23,6 +23,8 @@ private:
   double after_act;
   // 活性化関数
   std::function<double(double)> act;
+  // 活性化関数の導関数
+  std::function<double(double)> act_d;
 
 public:
   Perceptron(int _input_num, std::string act_name);

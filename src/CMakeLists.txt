@@ -3,6 +3,7 @@ add_library(greetings
     activation_function.cpp
     perceptron.cpp
     layer.cpp
+    optimizer.cpp
   )
 # greetingライブラリのインクルードディレクトリを教えてあげる
 # PROJECT_SOURCE_DIRはこのプロジェクトのルートディレクトリの絶対パス

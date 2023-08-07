@@ -9,10 +9,13 @@ Perceptron::Perceptron(int _input_num, std::string act_name)
   weight.assign(input_num, 0);
   if (act_name == "sigmoid") {
     act = ActivationFunction::sigmoid;
+    act_d = ActivationFunction::sigmoid_d;
   } else if (act_name == "ReLU") {
     act = ActivationFunction::ReLU;
+    act_d = ActivationFunction::ReLU_d;
   } else if (act_name == "tanh") {
     act = ActivationFunction::tangent_hyperbolic;
+    act = ActivationFunction::tangent_hyperbolic_d;
   } else {
     assert(false);
   }
