@@ -17,7 +17,7 @@ Perceptoron::Perceptoron(int _input_num, std::string act_name) : input_num(_inpu
   }
 } 
 
-double Perceptoron::forward_propagation(std::vector<double> _input){
+double Perceptoron::forward_propagation(std::vector<double> &_input){
   input = _input;
 
   before_act = bias;

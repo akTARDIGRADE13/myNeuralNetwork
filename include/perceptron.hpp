@@ -27,7 +27,7 @@ struct Perceptoron {
  private:
   explicit Perceptoron(int _input_num, std::string act_name);
 
-  double forward_propagation(std::vector<double> _input);
+  double forward_propagation(std::vector<double> &_input);
 };
 
 }  // namespace my_NeuralNetwork
