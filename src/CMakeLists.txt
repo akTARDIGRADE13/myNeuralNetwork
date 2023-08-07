@@ -1,6 +1,7 @@
 add_library(greetings
   SHARED
     activation_function.cpp
+    perceptron.cpp
   )
 # greetingライブラリのインクルードディレクトリを教えてあげる
 # PROJECT_SOURCE_DIRはこのプロジェクトのルートディレクトリの絶対パス

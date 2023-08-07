@@ -70,14 +70,14 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "a.out::@36f028580bb02cc8272a",
-					"jsonFile" : "target-a.out-Debug-61b2f214e8ae53bb7833.json",
+					"jsonFile" : "target-a.out-Debug-0c4ca6424b3508164456.json",
 					"name" : "a.out",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "greetings::@145eef247bfb46b6828c",
-					"jsonFile" : "target-greetings-Debug-a509691df662335ca19d.json",
+					"jsonFile" : "target-greetings-Debug-28c8aaf087769e68c01e.json",
 					"name" : "greetings",
 					"projectIndex" : 0
 				}
@@ -87,8 +87,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork/build",
-		"source" : "/mnt/d/UserFolder/Documents/my_NeuralNetwork"
+		"build" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork/build",
+		"source" : "/mnt/c/Users/TI/Documents/my_NeuralNetwork"
 	},
 	"version" : 
 	{
